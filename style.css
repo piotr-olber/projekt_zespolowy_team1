@@ -7,7 +7,7 @@
 }
 
 .navbar-brand > img {
-  height: 1.6rem;
+  height: 4rem;
 }
 
 .navbar-nav li {
@@ -22,65 +22,71 @@
   color: cadetblue;
 }
 
+.nav-bk {
+  background: #40e0d0;
+  background: -webkit-linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
+  background: linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
+}
+
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/mainTheme.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .caption {
   width: 100%;
-  color: white;
+  color: black;
   position: absolute;
   top: 30%;
   z-index: 1;
 }
 
 /* course */
-#course{
+#course {
   background-color: lightgray;
 }
 
 /* features */
-.jumbotron{
+.jumbotron {
   color: black;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.line{
+.line {
   margin-bottom: 0;
 }
 
-.features-list{
+.features-list {
   list-style: none;
 }
 
-.client{
+.client {
   width: 90%;
   border-radius: 20%;
   min-width: 15vw;
 }
 
-.blockquote{
+.blockquote {
   width: 90%;
 }
 
 /* contact */
-footer, footer a{
-  color: darkgray
+footer,
+footer a {
+  color: darkgray;
 }
 
-footer a:hover{
+footer a:hover {
   color: black;
 }
 
 footer img {
-  height: 2.5rem;
-  margin: 0.6rem 0;
+  height: 10rem;
+  margin: 0.6rem;
 }
-
 
 /* own media rules */
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -95,8 +101,6 @@ footer img {
   }
 }
 
-
-
 /*============= SECTION =============*/
 
 .narrow {
@@ -108,12 +112,12 @@ footer img {
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #1ebba3;
+  background-color: #1ebba3;
   color: white;
 }
 .btn-secondary:hover,
@@ -122,7 +126,6 @@ footer img {
   background-color: #189582;
   color: white;
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 

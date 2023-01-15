@@ -5,3 +5,8 @@
 -  [ ] dodać więcej klientów<br>
 -  [ ] ulepszyć menu<br>
 -  [ ] zaktualizować wersję bootstrap<br>
+
+
+#  ## Będziemy modyfikować pliki
+- index.html
+- style.css

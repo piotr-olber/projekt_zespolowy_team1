@@ -30,14 +30,14 @@
 
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/mainTheme.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .caption {
   width: 100%;
-  color: white;
+  color: black;
   position: absolute;
   top: 30%;
   z-index: 1;
